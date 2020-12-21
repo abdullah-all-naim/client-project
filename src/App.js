@@ -10,6 +10,7 @@ import SignUp from './SignUp/SignUp';
 import Faq from './Faq/Faq';
 import ChatAdmin from './ChatAdmin/ChatAdmin';
 import Testimonial from './Testimonial/Testimonial';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
         <ChatAdmin></ChatAdmin>
         <SignUp></SignUp>
         <Article></Article>
+
       </div>
+      <Footer></Footer>
 
     </BrowserRouter>
   );

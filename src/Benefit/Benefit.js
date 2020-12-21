@@ -60,7 +60,7 @@ const Benefit = () => {
                 {
                     benefit.map(x =>
                         <div className='d-flex col-md-3 col-6 justify-content-center'>
-                            <div className='text-center mb-5'>
+                            <div className='text-center mb-5' data-aos="flip-left">
                                 <img src={x.image} style={{ width: '100px', margin:'auto' }} alt="" />
                                 <h4 className='mt-2'>{x.text}</h4>
                             </div>
