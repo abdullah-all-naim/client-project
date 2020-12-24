@@ -17,9 +17,10 @@ function App() {
   return (
     <BrowserRouter>
       <Navigation></Navigation>
+      <Header></Header>
+      <Subscriber></Subscriber>
       <div style={{ backgroundColor: '#F1F1F1' }}>
-        <Header></Header>
-        <Subscriber></Subscriber>
+
         <Benefit></Benefit>
         <Testimonial></Testimonial>
         <Faq></Faq>

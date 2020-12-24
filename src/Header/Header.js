@@ -9,7 +9,7 @@ const Header = () => {
         <div className='container py-5' style={{padding:''}}>
             <div className='d-flex flex-wrap justify-content-center align-items-center'>
                 <div className='col-md-6 text-left' >
-                    <p className='' style={{fontWeight: 'bold', fontFamily: "Comic Neue, cursive", fontSize:'20px'}}>Sudah coba rutin upload video, share link ke segala penjuru, mendaki gunung, lewatin lembah tapi viewers dan subscribermu mogok segitu aja? <br/><br/><br/>
+                    <p className='pl-3' style={{fontWeight: 'bold', fontFamily: "Comic Neue, cursive", fontSize:'20px', borderLeft:'4px solid rgba(243, 52, 89, 1)', borderRadius:'2px'}}>Sudah coba rutin upload video, share link ke segala penjuru, mendaki gunung, lewatin lembah tapi viewers dan subscribermu mogok segitu aja? <br/><br/><br/>
 
                     eiiits, jangan pesimis dulu bosque. Inilah saatnya PENDEKAR TURUN GUNUNG!
                     siapa tau, kamilah yang ditakdirkan jadi jawaban terakhir semua gundahmu #UhukLebaay</p>

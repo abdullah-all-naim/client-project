@@ -53,7 +53,7 @@ const benefit = [
 
 const Benefit = () => {
     return (
-        <div style={{ fontFamily: "Comic Neue, cursive", fontWeight: '800' }}>
+        <div style={{ fontFamily: "Comic Neue, cursive", fontWeight: '800', paddingTop:'02px' }}>
             <h4 className='text-center' style={{ margin: '100px 0' }}>FITUR DAN BENEFIT YANG KAMI TAWARKAN</h4>
             <div className='d-flex flex-wrap'>
                 {
