@@ -23,7 +23,7 @@ const article = [
 
 const Article = () => {
     return (
-        <div className="bg-white">
+        <div className="bg-white" id='blog'>
             <h2 className='font-weight-bold text-center' style={{paddingTop:'100px'}}>Artikel terpopuler</h2>
             <div className='d-flex flex-wrap justify-content-center'>
                 

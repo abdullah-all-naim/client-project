@@ -12,7 +12,7 @@ const Testimonial = () => {
         { width: 1200, itemsToShow: 5 }
     ];
     return (
-        <div className='py-5' style={{ backgroundColor: 'white' }}>
+        <div className='py-5' id='review' style={{ backgroundColor: 'white' }}>
             <h2 className='text-center my-5' style={{ fontFamily: "Comic Neue, cursive" }}>Cerita Mereka</h2>
             <div className='' style={{ fontFamily: "Comic Neue, cursive" }}>
                 <div className="styling-example mt-5" >

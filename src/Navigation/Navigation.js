@@ -5,7 +5,7 @@ import { NavLink, useHistory } from 'react-router-dom';
 const Navigation = () => {
     const history = useHistory()
     return (
-        <div className="px-5 bg-danger">
+        <div className="px-5 bg-danger" id='header'>
             <Navbar expand="lg">
                 <NavLink to="/">
                     <h3 className='text-dark'>Logo</h3>
@@ -14,13 +14,15 @@ const Navigation = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto mb-3">
-                        <NavLink className="text-decoration-none font-weight-bold text-white mx-4 mt-3" to="/">HOME</NavLink>
-                        <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3" href="#portfolio">FIUR</a>
-                        <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3" to="/">RIVIEW</a>
-                        <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3" href="#contact-form">FAG</a>
-                        <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3" href="#contact-form">BLOG</a>
+                        <NavLink className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" to="/">HOME</NavLink>
+                        <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href="#portfolio">FIUR</a>
+                        <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href='#review'>REVIEW</a>
+                        <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href="#faq">FAQ</a>
+                        <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href="#blog">BLOG</a>
                     </Nav>
-                    <button className='btn bg-white text-dark px-5 mx-5 my-2' style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} onClick={() => history.push('/login')}>Login</button>
+                    <div className="text-center">
+                        <button className='btn bg-white text-dark px-5 mx-md-5  my-2' style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} onClick={() => history.push('/login')}>Login</button>
+                    </div>
                 </Navbar.Collapse>
             </Navbar>
         </div>

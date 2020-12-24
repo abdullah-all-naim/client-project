@@ -1,6 +1,5 @@
 import React from 'react';
-import circle from '../circle-cropped.png'
-import bergana from '../images/bergana.png'
+import circle from '../images/bergana.png'
 import community from '../images/community.png'
 import human from '../images/human.png'
 import indonesia from '../images/indonesia.png'
@@ -47,24 +46,27 @@ const benefit = [
     },
     {
         id: 8,
-        image: bergana,
+        image: indonesia,
         text: 'Bergaransi'
     },
 ]
 
 const Benefit = () => {
     return (
-        <div style={{fontFamily: "Comic Neue, cursive", fontWeight:'800'}}>
-            <h4 className='text-center' style={{margin:'100px 0'}}>FITUR DAN BENEFIT YANG KAMI TAWARKAN</h4>
+        <div style={{ fontFamily: "Comic Neue, cursive", fontWeight: '800' }}>
+            <h4 className='text-center' style={{ margin: '100px 0' }}>FITUR DAN BENEFIT YANG KAMI TAWARKAN</h4>
             <div className='d-flex flex-wrap'>
                 {
                     benefit.map(x =>
                         <div className='d-flex col-md-3 col-6 justify-content-center'>
                             <div className='text-center mb-5' data-aos="flip-left">
-                                <img src={x.image} style={{ width: '100px', margin:'auto' }} alt="" />
+                                <div style={{ }}>
+
+                                <img src={x.image} style={{ width: '100px',boxShadow: 'rgba(0, 0, 0, 0.68) 2px 0px 18px 0px', borderRadius: '50%'}} className="img-fluid" alt="" />
+                                </div>
                                 <h4 className='mt-2'>{x.text}</h4>
                             </div>
-                            
+
                         </div>
                     )
                 }

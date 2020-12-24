@@ -2,7 +2,7 @@ import React from 'react';
 
 const Subscriber = () => {
     return (
-        <div style={{backgroundColor: 'black', borderRadius:'10px', textAlign:'center', padding:'65px 0px', color:'white'}}>
+        <div style={{backgroundColor: 'black', borderRadius:'10px', textAlign:'center', padding:'65px 0px', color:'white',fontFamily: "Comic Neue, cursive", fontSize:'20px'}}>
             <p>1000 subscriber dan 4000 jam tayang bukan lagi kerikil tajam bagi newbie</p>
             <div style={{backgroundColor: 'rgba(243, 52, 89, 1)', borderTop: '1px solid white', borderBottom: '1px solid white'}}>
                 <p>mulai sekarang</p>
