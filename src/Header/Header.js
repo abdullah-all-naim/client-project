@@ -15,7 +15,7 @@ const Header = () => {
                     siapa tau, kamilah yang ditakdirkan jadi jawaban terakhir semua gundahmu #UhukLebaay</p>
                 </div>
                 <div className='col-md-6' data-aos='' >
-                <iframe  style={{position: 'relative', top:'0', left:'0', right:'0', width:'100%', height:'300px'}}  src="https://www.youtube.com/embed/kFthJgdiHrw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe  style={{ width:'100%', height:'250px'}}  src="https://www.youtube.com/embed/kFthJgdiHrw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
