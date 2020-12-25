@@ -15,7 +15,7 @@ const Navigation = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto mb-3">
                         <NavLink className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" to="/">HOME</NavLink>
-                        <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href="#portfolio">FIUR</a>
+                        <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href="#features">FITUR</a>
                         <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href='#review'>REVIEW</a>
                         <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href="#faq">FAQ</a>
                         <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href="#blog">BLOG</a>
