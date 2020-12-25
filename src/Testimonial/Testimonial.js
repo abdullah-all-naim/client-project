@@ -13,7 +13,7 @@ const Testimonial = () => {
     ];
     return (
         <div className='py-5' id='review' style={{ backgroundColor: 'white' }}>
-            <h2 className='text-center my-5' style={{ fontFamily: "Comic Neue, cursive" }}>Cerita Mereka</h2>
+            <h2 className='text-center my-5' style={{ fontFamily: "Prata, serif" }}>Cerita Mereka</h2>
             <div className='' style={{ fontFamily: "Comic Neue, cursive" }}>
                 <div className="styling-example mt-5" >
                     <Carousel breakPoints={breakPoints} style={{ marginTop: '120px'}} >
@@ -29,7 +29,7 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
                             </div>
                         </div>
                         <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
@@ -44,7 +44,7 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
                             </div>
                         </div>
                         <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
@@ -59,7 +59,7 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
                             </div>
                         </div>
                         <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
@@ -74,7 +74,7 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
                             </div>
                         </div>
                         <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
@@ -89,7 +89,7 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
                             </div>
                         </div>
                         <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
@@ -104,7 +104,7 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
                             </div>
                         </div>
                     </Carousel>
@@ -121,7 +121,7 @@ const Testimonial = () => {
                             <StarIcon style={{ color: 'gold' }} />
                         </div>
                         <div style={{ borderBottom: '2px solid gray' }}></div>
-                        <p className='mt-3'>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                        <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
                     </div>
                 </div>
                 <div className='col-md-4 col-lg-2 col-12 text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', fontFamily: "Comic Neue, cursive", boxShadow: '5px 5px' }}>
@@ -136,7 +136,7 @@ const Testimonial = () => {
                             <StarIcon style={{ color: 'gold' }} />
                         </div>
                         <div style={{ borderBottom: '2px solid gray' }}></div>
-                        <p className='mt-3'>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                        <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
                     </div>
                 </div>
                 <div className='col-md-4 col-lg-2 col-12 text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', fontFamily: "Comic Neue, cursive", boxShadow: '5px 5px' }}>
@@ -151,7 +151,7 @@ const Testimonial = () => {
                             <StarIcon style={{ color: 'gold' }} />
                         </div>
                         <div style={{ borderBottom: '2px solid gray' }}></div>
-                        <p className='mt-3'>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                        <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
                     </div>
                 </div>
                 <div className='col-md-4 col-lg-2 col-12 text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', fontFamily: "Comic Neue, cursive", boxShadow: '5px 5px' }}>
@@ -166,7 +166,7 @@ const Testimonial = () => {
                             <StarIcon style={{ color: 'gold' }} />
                         </div>
                         <div style={{ borderBottom: '2px solid gray' }}></div>
-                        <p className='mt-3'>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                        <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
                     </div>
                 </div> */}
             </div>

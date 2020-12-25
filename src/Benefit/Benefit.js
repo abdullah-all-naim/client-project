@@ -12,7 +12,7 @@ const benefit = [
     {
         id: 1,
         image: circle,
-        text: '100% AMAN'
+        text: 'AMAN'
     },
     {
         id: 2,
@@ -54,7 +54,7 @@ const benefit = [
 const Benefit = () => {
     return (
         <div style={{ fontFamily: "Comic Neue, cursive", fontWeight: '800', paddingTop:'02px' }}>
-            <h4 className='text-center' style={{ margin: '100px 0' }}>FITUR DAN BENEFIT YANG KAMI TAWARKAN</h4>
+            <h4 className='text-center' style={{ margin: '100px 0', fontFamily:'Inter, sans-serif' }}>Apa sih yang kami tawarkan?</h4>
             <div className='d-flex flex-wrap'>
                 {
                     benefit.map(x =>
@@ -64,7 +64,7 @@ const Benefit = () => {
 
                                 <img src={x.image} style={{ width: '100px',boxShadow: 'rgba(0, 0, 0, 0.68) 2px 0px 18px 0px', borderRadius: '50%'}} className="img-fluid" alt="" />
                                 </div>
-                                <h4 className='mt-2'>{x.text}</h4>
+                                <h4 className='mt-2 font-weight-bold' style={{fontFamily:'Merriweather, serif'}}>{x.text}</h4>
                             </div>
 
                         </div>

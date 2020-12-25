@@ -20,18 +20,13 @@ function App() {
       <Header></Header>
       <Subscriber></Subscriber>
       <div style={{ backgroundColor: '#F1F1F1' }}>
-
         <Benefit></Benefit>
         <Testimonial></Testimonial>
         <Faq></Faq>
         <ChatAdmin></ChatAdmin>
         <SignUp></SignUp>
         <Article></Article>
-
       </div>
-      <Footer></Footer>
-      {/* <Sample></Sample> */}
-
     </BrowserRouter>
   );
 }
