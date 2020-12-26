@@ -52,7 +52,7 @@ const handleClick = (e) => {
 const Faq = () => {
     return (
         <>
-        <h1 style={{ backgroundColor: 'black', width: '200px', color: 'white', padding: '10px 40px', borderRadius: '10px', margin: '100px auto', textAlign: 'center' }} id='faq'>FAQ</h1>
+        <h1 style={{ backgroundColor: 'black', width: '200px', color: 'white', padding: '10px 40px', borderRadius: '10px', margin: '100px auto', textAlign: 'center', fontSize:'30px' }} id='faq'>FAQ</h1>
         <h1 className='container' style={{fontSize: '26px'}}>Yang sering ditanyakan...</h1>
             <div className="container d-flex" >
 

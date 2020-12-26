@@ -62,9 +62,9 @@ const Benefit = () => {
                             <div className='text-center mb-5' data-aos="flip-left">
                                 <div style={{ }}>
 
-                                <img src={x.image} style={{ width: '80px', boxShadow: 'rgba(0, 0, 0, 0.68) 2px 0px 18px 0px', borderRadius: '50%'}} className="img-fluid" alt="" />
+                                <img src={x.image} style={{ width: '80px', borderRadius: '50%'}} className="img-fluid" alt="" />
                                 </div>
-                                <h4 className='mt-2 font-weight-bold' style={{fontFamily:'Merriweather, serif', fontSize:'20px'}}>{x.text}</h4>
+                                <h4 className='mt-2 font-weight-bold' style={{fontFamily:'Merriweather, serif', fontSize:'16px'}}>{x.text}</h4>
                             </div>
 
                         </div>
