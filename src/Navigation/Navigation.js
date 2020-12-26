@@ -5,7 +5,7 @@ import { NavLink, useHistory } from 'react-router-dom';
 const Navigation = () => {
     const history = useHistory()
     return (
-        <div className="px-5 bg-danger" id='header'>
+        <div className="px-5" style={{backgroundColor:'rgba(243, 52, 89, 1)'}} id='header'>
             <Navbar expand="lg">
                 <NavLink to="/">
                     <h3 className='text-dark'>Logo</h3>
@@ -21,7 +21,10 @@ const Navigation = () => {
                         <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href="#blog">BLOG</a>
                     </Nav>
                     <div className="text-center">
-                        <button className='btn bg-white text-dark px-5 mx-md-5  my-2' style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} onClick={() => history.push('/login')}>Login</button>
+                        <button className='btn bg-white text-dark px-5' style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} onClick={() => history.push('/login')}>Login</button>
+                    </div>
+                    <div className="text-center">
+                        <button className='btn bg-white text-dark px-5 mx-md-4  my-2' style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} onClick={() => history.push('/login')}>Signup</button>
                     </div>
                 </Navbar.Collapse>
             </Navbar>

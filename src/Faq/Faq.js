@@ -59,29 +59,29 @@ const Faq = () => {
                 <Tabs className='d-flex justify-content-between' defaultActiveKey="1" onChange={callback} >
                     <TabPane className='' id='tab' tab="cera kerja" key="1">
                         <ul style={{ listStyle: 'none', fontFamily: 'PT Sans, sans-serif', padding:'0' }}>
-                            <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between" onClick={handleClick} id='list1'>
-                                <li> <h3 style={{fontSize: '20px'}} >Bagaimana alur kerja web ini?</h3> </li>
-                                <p style={{ fontSize: '25px', fontWeight: '900' }}>></p>
+                            <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between align-items-center py-2" onClick={handleClick} id='list1'>
+                                <li > <h3 className='mb-0' style={{fontSize: '20px'}} >Bagaimana alur kerja web ini?</h3> </li>
+                                <p className='mb-0' style={{ fontSize: '25px', fontWeight: '900' }}>></p>
                             </div>
                             <p id='item1' style={{ display: 'none' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt dolorum eveniet eum earum vero consectetur. Quae harum unde cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae. </p>
-                            <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between" onClick={handleClick} id='list2'>
-                                <li> <h3 style={{fontSize: '20px'}} >Apakah disini menjual subscriber</h3> </li>
-                                <p style={{ fontSize: '25px', fontWeight: '900' }}>></p>
+                            <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between align-items-center py-2" onClick={handleClick} id='list2'>
+                                <li> <h3 className='mb-0' style={{fontSize: '20px'}} >Apakah disini menjual subscriber</h3> </li>
+                                <p className='mb-0' style={{ fontSize: '25px', fontWeight: '900' }}>></p>
                             </div>
                             <p id='item2' style={{ display: 'none' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt dolorum eveniet eum earum vero consectetur. Quae harum unde cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae. </p>
-                            <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between" onClick={handleClick} id='list3'>
-                                <li> <h3 style={{fontSize: '20px'}} >Apakah disini menjual watchtime</h3> </li>
-                                <p style={{ fontSize: '25px', fontWeight: '900' }}>></p>
+                            <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between align-items-center py-2" onClick={handleClick} id='list3'>
+                                <li> <h3 className='mb-0' style={{fontSize: '20px'}} >Apakah disini menjual watchtime</h3> </li>
+                                <p className='mb-0' style={{ fontSize: '25px', fontWeight: '900' }}>></p>
                             </div>
                             <p id='item3' style={{ display: 'none' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt dolorum eveniet eum earum vero consectetur. Quae harum unde cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae. </p>
-                            <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between" onClick={handleClick} id='list4'>
-                                <li> <h3 style={{fontSize: '20px'}} >Apakah ada mentor untuk konsultasi?</h3> </li>
-                                <p style={{ fontSize: '25px', fontWeight: '900' }}>></p>
+                            <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between align-items-center py-2" onClick={handleClick} id='list4'>
+                                <li> <h3 className='mb-0' style={{fontSize: '20px'}} >Apakah ada mentor untuk konsultasi?</h3> </li>
+                                <p className='mb-0' style={{ fontSize: '25px', fontWeight: '900' }}>></p>
                             </div>
                             <p id='item4' style={{ display: 'none' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt dolorum eveniet eum earum vero consectetur. Quae harum unde cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae. </p>
-                            <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between" onClick={handleClick} id='list5'>
-                                <li> <h3 style={{fontSize: '20px'}} >Berapa lama sava bisa mendapatkan subscriber jika saya daftar sekarang?</h3> </li>
-                                <p style={{ fontSize: '25px', fontWeight: '900' }}>></p>
+                            <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between align-items-center py-2" onClick={handleClick} id='list5'>
+                                <li> <h3 className='mb-0' style={{fontSize: '20px'}} >Berapa lama sava bisa mendapatkan subscriber jika saya daftar sekarang?</h3> </li>
+                                <p className='mb-0' style={{ fontSize: '25px', fontWeight: '900' }}>></p>
                             </div>
                             <p id='item5' style={{ display: 'none' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt dolorum eveniet eum earum vero consectetur. Quae harum unde cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae. </p>
                         </ul>

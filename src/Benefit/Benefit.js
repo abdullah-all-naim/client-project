@@ -12,22 +12,22 @@ const benefit = [
     {
         id: 1,
         image: circle,
-        text: 'AMAN'
+        text: 'Aman'
     },
     {
         id: 2,
         image: video,
-        text: 'Materi optimasi channel'
+        text: 'Materi Optimasi Channel'
     },
     {
         id: 3,
         image: support,
-        text: 'Support system'
+        text: 'Support System'
     },
     {
         id: 4,
         image: simple,
-        text: 'Mudah & simple'
+        text: 'Mudah & Simple'
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ const benefit = [
     {
         id: 8,
         image: indonesia,
-        text: 'Bergaransi'
+        text: 'Asli Penonton Indonesia'
     },
 ]
 
