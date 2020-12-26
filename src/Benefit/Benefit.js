@@ -12,7 +12,7 @@ const benefit = [
     {
         id: 1,
         image: circle,
-        text: 'Aman'
+        text: 'Channel 100% Aman'
     },
     {
         id: 2,
@@ -22,12 +22,12 @@ const benefit = [
     {
         id: 3,
         image: support,
-        text: 'Support System'
+        text: 'Support System Berpengalaman'
     },
     {
         id: 4,
         image: simple,
-        text: 'Mudah & Simple'
+        text: 'Mudah digunakan & Simple'
     },
     {
         id: 5,

@@ -6,8 +6,8 @@ const Navigation = () => {
     const history = useHistory()
 
     return (
-        <div className="px-5"  id='header'>
-            <Navbar expand="lg" className='fixed-top' style={{backgroundColor:'rgba(243, 52, 89, 1)'}}>
+        <div className="px-5" id='header'>
+            <Navbar expand="md" className='fixed-top' style={{ backgroundColor: 'rgba(243, 52, 89, 1)' }}>
                 <NavLink to="/">
                     <h3 className='text-dark'>Logo</h3>
                 </NavLink>
@@ -20,11 +20,11 @@ const Navigation = () => {
                         <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href="#faq">FAQ</a>
                         <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href="#blog">BLOG</a>
                     </Nav>
-                    <div className="text-center">
-                        <button className='btn bg-white text-dark px-5' style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} >Login</button>
+                    <div className="col-6 col-md-12 mx-auto mx-md-4 my-2">
+                        <button className=' btn bg-white text-dark px-5' style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} >Login</button>
                     </div>
-                    <div className="text-center">
-                        <button className='btn bg-white text-dark px-5 mx-md-4  my-2' style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} >Signup</button>
+                    <div className="text-center mx-4 my-2">
+                        <button className='col-6 col-md-12 btn bg-white text-dark  px-5' style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} >Signup</button>
                     </div>
                 </Navbar.Collapse>
             </Navbar>

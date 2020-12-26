@@ -14,7 +14,8 @@ const Header = () => {
                 <div className='col-md-6 text-left my-3' >
                     <p className='pl-3' style={{ fontWeight: 'bold', fontFamily: "Comic Neue, cursive", fontSize: '18px', borderLeft: '4px solid rgba(243, 52, 89, 1)', borderRadius: '2px' }}>Sudah coba rutin upload video, share link ke segala penjuru, mendaki gunung, lewatin lembah tapi viewers dan subscribermu mogok segitu aja? <br /><br />
                     eiiits, jangan pesimis dulu bosque. Inilah saatnya PENDEKAR TURUN GUNUNG!<br /><br />
-                    siapa tau, kamilah yang ditakdirkan jadi jawaban terakhir semua gundahmu <br /> #UhukLebaay</p>
+                    siapa tau, kamilah yang ditakdirkan jadi jawaban terakhir semua gundahmu <br /> #UhukLebaay <br/> <br/>
+                    1000 subscriber & 4000 jam tayang bukan lagi kerikil tajam bagi newbie.</p>
                 </div>
             </div>
         </div>
