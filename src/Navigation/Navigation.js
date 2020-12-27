@@ -1,15 +1,15 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink, useHistory } from 'react-router-dom';
-// import logo from '../../../logos/logo.png'
+import logo from '../logo1.png'
 const Navigation = () => {
     const history = useHistory()
 
     return (
-        <div className="px-5" id='header'>
-            <Navbar expand="lg" className='fixed-top' style={{ backgroundColor: 'rgba(243, 52, 89, 1)' }}>
+        <div className="" id='header'>
+            <Navbar expand="lg" className='fixed-top px-5' style={{ backgroundColor: 'rgba(243, 52, 89, 1)' }}>
                 <NavLink to="/">
-                    <h3 className='text-dark'>Logo</h3>
+                    <img style={{ width: '200px', height:'50px'}}src={logo} alt=""/>
                 </NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" id='nav-bar' />
                 <Navbar.Collapse id="basic-navbar-nav">
