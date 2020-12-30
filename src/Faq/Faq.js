@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import { Tabs } from 'antd';
+import './Faq.css'
 
 const { TabPane } = Tabs;
 
@@ -53,7 +54,7 @@ const Faq = () => {
     return (
         <>
         <h1 style={{ backgroundColor: 'black', width: '200px', color: 'white', padding: '10px 40px', borderRadius: '10px', margin: '100px auto', textAlign: 'center', fontSize:'30px' }} id='faq'>FAQ</h1>
-        <h1 className='container' style={{fontSize: '26px'}}>Yang sering ditanyakan...</h1>
+        <h1 className='container' style={{fontSize: '30px'}}>Yang sering ditanyakan...</h1>
             <div className="container d-flex" >
 
                 <Tabs className='d-flex justify-content-between' defaultActiveKey="1" onChange={callback} >
@@ -88,13 +89,13 @@ const Faq = () => {
                     </TabPane>
                     <TabPane tab="keamanan" key="2">
                         Content of Tab Pane 2
-            </TabPane>
+                    </TabPane>
                     <TabPane tab="kriteria member" key="3">
                         Content of Tab Pane 3
-            </TabPane>
+                    </TabPane>
                     <TabPane tab="upgrade PRO" key="4">
                         Content of Tab Pane 3
-            </TabPane>
+                    </TabPane>
                 </Tabs>
             </div>
         </>

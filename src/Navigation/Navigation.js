@@ -7,7 +7,7 @@ const Navigation = () => {
 
     return (
         <div className="" id='header'>
-            <Navbar expand="lg" className='fixed-top px-5' style={{ backgroundColor: 'rgba(243, 52, 89, 1)' }}>
+            <Navbar expand="lg" className='fixed-top px-5' style={{ backgroundColor: 'rgba(230, 0, 35, 1)' }}>
                 <NavLink to="/">
                     <img style={{ width: '200px', height:'50px'}}src={logo} alt=""/>
                 </NavLink>
@@ -21,10 +21,10 @@ const Navigation = () => {
                         <a className="text-decoration-none font-weight-bold text-white mx-4 mt-3 text-center" href="#blog">BLOG</a>
                     </Nav>
                     <div className="text-center mx-3 my-2">
-                        <button className='btn bg-white text-dark px-5' style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} >Login</button>
+                        <button className='btn bg-white text-dark px-5' onClick={() => history.push('/login')} style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} >Login</button>
                     </div>
                     <div className="text-center mx-3 my-2">
-                        <button className='btn bg-white text-dark  px-5' style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} >Signup</button>
+                        <button className='btn bg-white text-dark  px-5' onClick={() => history.push('/signup')} style={{ borderRadius: '20px', fontWeight: 'bold', fontSize: '17px' }} >Signup</button>
                     </div>
                 </Navbar.Collapse>
             </Navbar>

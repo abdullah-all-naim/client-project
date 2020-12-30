@@ -38,7 +38,7 @@ const Article = () => {
                                     <p className='col-md-10 col-12 text-left'>{x.description}</p>
                                 </div>
                                 <div>
-                                    <h6 className='text-white my-5' style={{backgroundColor:'rgba(243, 52, 89, 1)'}} >READ MORE</h6>
+                                    <h6 className='text-white my-5' style={{backgroundColor:'rgba(230, 0, 35, 1)'}} >READ MORE</h6>
                                 </div>
                             </div>
                         </div>
