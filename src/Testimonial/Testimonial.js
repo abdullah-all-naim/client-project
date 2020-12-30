@@ -17,10 +17,10 @@ const Testimonial = () => {
             <div className='' style={{ fontFamily: "Comic Neue, cursive" }}>
                 <div className="styling-example mt-5" >
                     <Carousel breakPoints={breakPoints} style={{ marginTop: '120px'}} >
-                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
+                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' , height: '372px'}}>
                             <AccountCircleIcon style={{ fontSize: '80px', transform: 'translateY(-30px)' }} />
                             <div>
-                                <h4>SELENA GOES</h4>
+                                <h4>Nia-Probolinggo</h4>
                                 <div className='mb-3' >
                                     <StarIcon style={{ color: 'gold' }} />
                                     <StarIcon style={{ color: 'gold' }} />
@@ -29,13 +29,13 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Awal nyobain pas web versi beta. iseng2 doang, channel juga baru bikin. gila. ternyata nagih banget! sekarang jadi minat jadi youtuber juga. Wkwk"</p>
                             </div>
                         </div>
-                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
+                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' , height: '372px'}}>
                             <AccountCircleIcon style={{ fontSize: '80px', transform: 'translateY(-30px)' }} />
                             <div>
-                                <h4>SELENA GOES</h4>
+                                <h4>Wildan-Malang</h4>
                                 <div className='mb-3' >
                                     <StarIcon style={{ color: 'gold' }} />
                                     <StarIcon style={{ color: 'gold' }} />
@@ -44,13 +44,13 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Channelku udah bikin dari 2018 tapi masih sepi. Padahal subscriber lumayan banyak. Begitu semingguan ikut gabung kesini. Kurang dikit lagi udah bisa memenuhi pengajuan monet. Keren"</p>
                             </div>
                         </div>
-                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
+                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' , height: '372px'}}>
                             <AccountCircleIcon style={{ fontSize: '80px', transform: 'translateY(-30px)' }} />
                             <div>
-                                <h4>SELENA GOES</h4>
+                                <h4>Nizar Kediri</h4>
                                 <div className='mb-3' >
                                     <StarIcon style={{ color: 'gold' }} />
                                     <StarIcon style={{ color: 'gold' }} />
@@ -59,13 +59,13 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Di minta untuk kasih review setelah nyobain gabung 5 hari. Aseli bingung mau nulis apa. Nyesel aja sih. Kenapa web ini baru muncul sekarang. Ga dari dulu2. TOP lah buat TEAM nya"</p>
                             </div>
                         </div>
-                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
+                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' , height: '372px'}}>
                             <AccountCircleIcon style={{ fontSize: '80px', transform: 'translateY(-30px)' }} />
                             <div>
-                                <h4>SELENA GOES</h4>
+                                <h4>Aziz Bandung</h4>
                                 <div className='mb-3' >
                                     <StarIcon style={{ color: 'gold' }} />
                                     <StarIcon style={{ color: 'gold' }} />
@@ -74,13 +74,13 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Satu kata mewakili testimoniku “Kalian Luar Biasaaa…."</p>
                             </div>
                         </div>
-                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
+                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' , height: '372px'}}>
                             <AccountCircleIcon style={{ fontSize: '80px', transform: 'translateY(-30px)' }} />
                             <div>
-                                <h4>SELENA GOES</h4>
+                                <h4>Zuhairoh Surabaya</h4>
                                 <div className='mb-3' >
                                     <StarIcon style={{ color: 'gold' }} />
                                     <StarIcon style={{ color: 'gold' }} />
@@ -89,13 +89,13 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Kalau ada yang bilang “sub4sub itu langkah paling cepet untuk dimonet”. SALAH BESAR. Disini bisa lebih KILAT lagi, dan tanpa harus melanggar pedoman youtube. GENIUS!"</p>
                             </div>
                         </div>
-                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
+                        <div className=' text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' , height: '372px'}}>
                             <AccountCircleIcon style={{ fontSize: '80px', transform: 'translateY(-30px)' }} />
                             <div>
-                                <h4>SELENA GOES</h4>
+                                <h4>Rosyid Jakarta</h4>
                                 <div className='mb-3' >
                                     <StarIcon style={{ color: 'gold' }} />
                                     <StarIcon style={{ color: 'gold' }} />
@@ -104,71 +104,11 @@ const Testimonial = () => {
                                     <StarIcon style={{ color: 'gold' }} />
                                 </div>
                                 <div style={{ borderBottom: '2px solid gray' }}></div>
-                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
+                                <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Baru gabung 2 hari, belum bisa kasih testimony banyak. Cuma salut sama team nya. Dengan web sekomplek ini berani kasih gratisan. Pasti anak sultan nih! haha"</p>
                             </div>
                         </div>
                     </Carousel>
                 </div>
-                {/* <div className='col-md-4 col-lg-2 col-12 text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', boxShadow: '5px 5px' }}>
-                    <AccountCircleIcon style={{ fontSize: '80px', transform: 'translateY(-30px)' }} />
-                    <div>
-                        <h4>SELENA GOES</h4>
-                        <div className='mb-3' >
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                        </div>
-                        <div style={{ borderBottom: '2px solid gray' }}></div>
-                        <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
-                    </div>
-                </div>
-                <div className='col-md-4 col-lg-2 col-12 text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', fontFamily: "Comic Neue, cursive", boxShadow: '5px 5px' }}>
-                    <AccountCircleIcon style={{ fontSize: '80px', transform: 'translateY(-30px)' }} />
-                    <div>
-                        <h4>SELENA GOES</h4>
-                        <div className='mb-3'>
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                        </div>
-                        <div style={{ borderBottom: '2px solid gray' }}></div>
-                        <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
-                    </div>
-                </div>
-                <div className='col-md-4 col-lg-2 col-12 text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', fontFamily: "Comic Neue, cursive", boxShadow: '5px 5px' }}>
-                    <AccountCircleIcon style={{ fontSize: '80px', transform: 'translateY(-30px)' }} />
-                    <div>
-                        <h4>SELENA GOES</h4>
-                        <div className='mb-3' >
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                        </div>
-                        <div style={{ borderBottom: '2px solid gray' }}></div>
-                        <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
-                    </div>
-                </div>
-                <div className='col-md-4 col-lg-2 col-12 text-center m-4' style={{ border: '1px solid black', borderRadius: '15px', fontFamily: "Comic Neue, cursive", boxShadow: '5px 5px' }}>
-                    <AccountCircleIcon style={{ fontSize: '80px', transform: 'translateY(-30px)' }} />
-                    <div>
-                        <h4>SELENA GOES</h4>
-                        <div className='mb-3' >
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                            <StarIcon style={{ color: 'gold' }} />
-                        </div>
-                        <div style={{ borderBottom: '2px solid gray' }}></div>
-                        <p className='mt-3'style={{fontFamily: 'PT Sans, sans-serif', fontWeight:'600'}}>"Sangat Recomendet vidionoya bagus-bagus"</p>
-                    </div>
-                </div> */}
             </div>
         </div>
     );
