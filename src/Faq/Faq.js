@@ -64,27 +64,27 @@ const Faq = () => {
                                 <li > <h3 className='mb-0' style={{fontSize: '20px'}} >Bagaimana alur kerja web ini?</h3> </li>
                                 <p className='mb-0' style={{ fontSize: '25px', fontWeight: '900' }}>></p>
                             </div>
-                            <p id='item1' style={{ display: 'none' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt dolorum eveniet eum earum vero consectetur. Quae harum unde cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae. </p>
+                            <p id='item1' style={{ display: 'none' }}>Setelah pendaftaranmu kami setujui, kamu bisa mulai menonton video yang kami sediakan. Setiap video yang berhasil kamu tonton akan terakumulasi ke dalam poin. Poin tersebut dapat kamu gunakan untuk mempromosikan videomu ke daftar tonton member lain </p>
                             <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between align-items-center py-2" onClick={handleClick} id='list2'>
                                 <li> <h3 className='mb-0' style={{fontSize: '20px'}} >Apakah disini menjual subscriber</h3> </li>
                                 <p className='mb-0' style={{ fontSize: '25px', fontWeight: '900' }}>></p>
                             </div>
-                            <p id='item2' style={{ display: 'none' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt dolorum eveniet eum earum vero consectetur. Quae harum unde cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae. </p>
+                            <p id='item2' style={{ display: 'none' }}>Tidak. Membeli subscriber itu melanggar kebijakan Youtube bos. Sekalipun channel bakal kelihatan "berkembang" tapi itu palsu. Bahkan pengajuan monetisasimu bakal ditolak youtube. Alhasil sia sia juga dong </p>
                             <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between align-items-center py-2" onClick={handleClick} id='list3'>
-                                <li> <h3 className='mb-0' style={{fontSize: '20px'}} >Apakah disini menjual watchtime</h3> </li>
+                                <li> <h3 className='mb-0' style={{fontSize: '20px'}} >Apakah web ini menggunakan robot atau software sejenisnya untuk menonton video?</h3> </li>
                                 <p className='mb-0' style={{ fontSize: '25px', fontWeight: '900' }}>></p>
                             </div>
-                            <p id='item3' style={{ display: 'none' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt dolorum eveniet eum earum vero consectetur. Quae harum unde cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae. </p>
+                            <p id='item3' style={{ display: 'none' }}>Tidak. Tujuan web ini adalah untuk Meningkatkan "engagement" channel mu. Jadi semua interaksi wajib dilakukan oleh manusia. Sistem kami akan mendeteksi otomatis dan memblokir views tidak wajar / palsu / mencurigakan. </p>
                             <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between align-items-center py-2" onClick={handleClick} id='list4'>
-                                <li> <h3 className='mb-0' style={{fontSize: '20px'}} >Apakah ada mentor untuk konsultasi?</h3> </li>
+                                <li> <h3 className='mb-0' style={{fontSize: '20px'}} >Apakah disini menjual Viewers?</h3> </li>
                                 <p className='mb-0' style={{ fontSize: '25px', fontWeight: '900' }}>></p>
                             </div>
-                            <p id='item4' style={{ display: 'none' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt dolorum eveniet eum earum vero consectetur. Quae harum unde cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae. </p>
+                            <p id='item4' style={{ display: 'none' }}>Kami ini setia mengikuti semboyan penduduk +62 yang paling sadeees “kalau bisa gratis, kenapa harus bayar? Haha. Konsep web ini adalah agar para youtuber pemula (belum dimonetisasi) bisa saling support dan memberikan masukan positif satu sama lain. Jika kamu tidak menonton video temanmu, videomu juga tidak akan ada penonton. Sesimple itu Mbak Bro </p>
                             <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between align-items-center py-2" onClick={handleClick} id='list5'>
-                                <li> <h3 className='mb-0' style={{fontSize: '20px'}} >Berapa lama sava bisa mendapatkan subscriber jika saya daftar sekarang?</h3> </li>
+                                <li> <h3 className='mb-0' style={{fontSize: '20px'}} >Disini kok ketat banget, udah kayak youtube beneran aja lu min</h3> </li>
                                 <p className='mb-0' style={{ fontSize: '25px', fontWeight: '900' }}>></p>
                             </div>
-                            <p id='item5' style={{ display: 'none' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus deserunt dolorum eveniet eum earum vero consectetur. Quae harum unde cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae. </p>
+                            <p id='item5' style={{ display: 'none' }}>Uhuk. Kami ini sangat amat serius banget agar sistem yang kami rancang selama 9 purnama ini, berjalan se-sempurna gombalanmu dan tidak melanggar kebijakan atau bertentangan sama ketua gank kami Bang youtube. Selain itu, demi menjaga agar komunitas ini tetap produktif, selalu sehat dan riang gembira, kami akan memberlakukan peraturan dan kebijakan yang wajib ditaati semua kisanak di padepokan ini. detailnya klik disini </p>
                         </ul>
                     </TabPane>
                     <TabPane tab="keamanan" key="2">

@@ -8,10 +8,10 @@ const Navigation = () => {
 
     return (
         <div className="" id='header'>
-            <Navbar expand="lg" className='fixed-top px-5 shadow' style={{ backgroundColor: 'white', }}>
+            <Navbar expand="lg" className='fixed-top shadow' style={{ backgroundColor: 'white', }}>
                 <NavLink to="/">
                 <img style={{ width: '50px', height:'50px'}}src={caption} alt=""/>
-                    <img style={{ width: '200px', height:'50px'}}src={logo} alt=""/>
+                    <img style={{  height:'50px'}}src={logo} alt=""/>
                 </NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" id='nav-bar' />
                 <Navbar.Collapse id="basic-navbar-nav">
