@@ -45,7 +45,6 @@ const Article = () => {
                     )
                 }
             </div>
-            <p className='mt-3 text-center my-4 py-5' style={{cursor: 'pointer'}} ><a href='#header'>Back to top</a></p>
         </div>
     );
 };

@@ -1,8 +1,6 @@
 import React from 'react';
-import { useState } from 'react';
 
 const Advertisement = () => {
-    const [isOpen, setIsOpen] = useState('none')
     const handleClick = (e) => {
             document.getElementById('ad1').style.display = 'block';
     }

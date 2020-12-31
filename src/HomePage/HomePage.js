@@ -1,15 +1,14 @@
 import React from 'react';
 import Header from '../Header/Header';
-import Navigation from '../Navigation/Navigation';
-// import Navigation from './Navigation/Navigation';
-// import Header from './Header/Header';
 import Subscriber from '../Subscriber/Subscriber';
 import Benefit from '../Benefit/Benefit';
 import Article from '../Article/Article';
-import SignUp from '../SignUp/SignUp';
 import Faq from '../Faq/Faq';
 import ChatAdmin from '../ChatAdmin/ChatAdmin';
 import Testimonial from '../Testimonial/Testimonial';
+import Footer from '../Footer/Footer';
+import SignUp from '../SignUp/SignUp';
+import Navigation from '../Navigation/Navigation';
 
 const HomePage = () => {
     return (
@@ -25,6 +24,7 @@ const HomePage = () => {
                 <SignUp></SignUp>
                 <Article></Article>
             </div>
+            <Footer />
         </div>
     );
 };
