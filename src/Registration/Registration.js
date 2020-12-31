@@ -23,7 +23,7 @@ const Registration = () => {
     }
 
     return (
-        <div>
+        <div className="container">
             <ul style={{ listStyle: 'none', fontFamily: 'PT Sans, sans-serif', padding: '0' }}>
                 <div style={{ borderBottom: '3px solid gray', cursor: 'pointer' }} className="d-flex justify-content-between align-items-center py-2" onClick={handleClick} id='registration1'>
                     <li > <h3 className='mb-0' style={{ fontSize: '20px' }} >Channel yang seperti apa yang akan diterima disini?</h3> </li>
