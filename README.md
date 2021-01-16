@@ -1,6 +1,6 @@
 # Paid Task
 
-This was a paid task from one of my clients.This is the homepage of his website. I have to design this according to client requirements given in the figma file. It is just a simple react application.  
+This was a paid task from one of my clients. This is the homepage of his website. I have to design this according to his requirements given in the figma file. It is just a simple react application. He praised me a lot seeing my work and give me a tip as he was satisfied.
 
 ## Technology Used : 
 
